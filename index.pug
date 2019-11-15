@@ -1,0 +1,41 @@
+extends _template.pug
+
+block header
+    +header("./images/3.jpg")
+        h1 Clean Blog
+        p.subtitle A Blog Theme by Start Bootstrap
+block main
+    article
+        a(href="sample.html")
+            header
+                h2 Man must explore, and this is  exploration at its greatest
+            p Problems look mightly small from 150 miles up
+        footer
+            p: i Posted by <a href="#"><b>Start Bootstrap</b></a> on September 24, 2019
+    hr
+    article
+        a(href="sample.html")
+            header
+                h2 I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine.
+        footer
+            p: i Posted by <a href="#"><b>Start Bootstrap</b></a> on September 18, 2019
+    hr
+    article
+        a(href="sample.html")
+            header
+                h2 Science has not yet mastered prophecy
+            p We predict too much for the next year and yet far too little for the next ten.
+        footer
+            p: i Posted by <a href="#"><b>Start Bootstrap</b></a> on August 24, 2019
+    hr
+    article
+        a(href="sample.html")
+            header
+                h2 Failure is not an option
+            p Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+        footer
+            p: i Posted by <a href="#"><b>Start Bootstrap</b></a> on July8, 2019
+    hr
+    .d-flex.justify-content-end.mb-3
+        a.button(href="http://#") OLDER POSTS &rarr;   
+                

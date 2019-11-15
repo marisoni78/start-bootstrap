@@ -1,0 +1,14 @@
+extends _template.pug
+
+block header
+    +header("./images/2.jpg")
+        h1 Contact Me
+        h4 Have questions? I have answers.
+block main
+    form(action="", method="get").d-flex.flex-column.align-items-start.form
+        p Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!
+        <input class="input" type="text" name="username" placeholder="Name">
+        <input class="input" type="email" name="useremail" placeholder="Email Address">
+        <input class="input" type="tel" name="userphone" placeholder="Phone Number">
+        <textarea class="input input--textarea" name="message" placeholder="Message" id="" rows="10"></textarea>
+        <input type="submit" class="button_send button mb-5" name=" submit" value="Send">
