@@ -1,0 +1,22 @@
+{
+  "name": "start-bootstrap",
+  "version": "1.0.0",
+  "description": "start bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marisoni78/start-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marisoni78/start-bootstrap/issues"
+  },
+  "homepage": "https://github.com/marisoni78/start-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

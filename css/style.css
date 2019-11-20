@@ -8150,6 +8150,13 @@ a:hover {
   line-height: 18px;
   letter-spacing: 0.02em;
   color: #FFFFFF; }
+  @media (max-width: 991px) {
+    .navbar-nav .nav-item .nav-link {
+      color: black; } }
+
+@media (max-width: 991px) {
+  .navbar {
+    background-color: #FFFFFF; } }
 
 .navbar .navbar-brand {
   color: white;
@@ -8161,6 +8168,9 @@ a:hover {
   line-height: 27px;
   letter-spacing: 0.02em;
   color: #FFFFFF; }
+  @media (max-width: 991px) {
+    .navbar .navbar-brand {
+      color: black; } }
 
 .navbar {
   position: absolute;
@@ -8208,6 +8218,9 @@ h1 {
   /* or 125px */
   text-align: center;
   letter-spacing: -0.025em; }
+  @media (max-width: 575px) {
+    h1 {
+      font-size: 48px; } }
 
 h4 {
   font-weight: normal;
@@ -8357,3 +8370,5 @@ article footer p {
   color: #000000;
   margin-bottom: 15px;
   border-bottom: 1px solid #000000; }
+
+/*# sourceMappingURL=style.css.map */

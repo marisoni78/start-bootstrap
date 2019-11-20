@@ -23,8 +23,18 @@ a:hover {
     letter-spacing: 0.02em;
 
     color: #FFFFFF;
+@media (max-width:991px) {
+    color: black;
+    
+}
 
+}
+.navbar {
+    @media (max-width: 991px){
+ background-color: #FFFFFF;
 
+    }
+  
 }
 
 .navbar .navbar-brand {
@@ -38,6 +48,10 @@ a:hover {
     letter-spacing: 0.02em;
 
     color: #FFFFFF;
+    @media (max-width:991px) {
+        color: $dark-color;
+        
+    }
 
 }
 
@@ -90,6 +104,10 @@ h1 {
 
     text-align: center;
     letter-spacing: -0.025em;
+
+    @media (max-width: 575px) {
+        font-size: 48px;
+    }
 
 }
 
